@@ -6,8 +6,8 @@ from kivy.uix.textinput import TextInput
 class CalculatorApp(App):
     def build(self):
         self.operators = ["/", "*", "-", "+"]
-        #self.last_was_operator = None
-        #self.last_button = None
+        self.last_was_operator = None
+        self.last_button = None
         
         main_layout = BoxLayout(orientation="vertical")
         
