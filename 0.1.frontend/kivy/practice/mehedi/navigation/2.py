@@ -39,4 +39,4 @@ class MyScreenManagerApp(App):
         return sm
 
 if __name__ == '__main__':
-    MyScreenManagerApp().run
+    MyScreenManagerApp().run()
