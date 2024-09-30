@@ -22,4 +22,4 @@ class MyBoxLayoutApp(App):
         return layout
 
 if __name__ == '__main__':
-    MyBoxLayoutApp().run(
+    MyBoxLayoutApp().run()
